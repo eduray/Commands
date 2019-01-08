@@ -1,0 +1,33 @@
+
+
+//Se debe crear un archivo en components app.routes.ts
+//Luego, se debe configurar dicho archivo con las rutas
+
+/** code:
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './components/home/home.component';
+ 
+
+const APP_ROUTES: Routes = [
+    { path: 'home', component: HomeComponent },
+    { path: '**',  pathMatch: 'full', redirectTo: 'home' },
+];
+
+export const app_routing = RouterModule.forRoot(APP_ROUTES);
+**/
+
+//luego, se debe registrar en el archivo de modules app.modules.ts
+//se debe importar la constante de routes y se debe colocar en la seccion de "Imports"
+//por ultimo se debe colocar <router-oultle> en en app component.
+
+// cuando se esta utlizando el modo de routing con #, se debe colocar en el index
+/**
+...
+  export const app_routing = RouterModule.forRoot(APP_ROUTES, { useHash: true});
+**/
+
+/**
+  ...
+  <base href="/">
+  ...
+**/

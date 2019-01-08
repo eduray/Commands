@@ -1,0 +1,28 @@
+
+
+e2e : Es destinado a pruebas end to end. Ejecuta pruebas automaticas
+
+node_modules : Modulos de node
+
+src : codigo fuente de la aplicacion
+
+.editorconfig : configuracion del editor
+
+.gitignore : archivo de git
+
+angular.json : archivo que le dice a angular que es nuestra app y como funciona.
+
+package-lock.json : le dice a angular como fue creado el package .json, no se toca manualmente.
+
+package.json : se crea de forma automatica, dependencias de desarrollo, de produccion etc.
+
+tsconfig.json :  le dice a typescript como compilar la app.
+
+tslint.json : nos ayuda a forzar a escribir codigo mas limpio.
+
+cualquier archivo spec es una archivo de pruebas automaticas.
+
+app.module.ts : 
+
+main.ts : es el primer codigo que angular va ha lanzar.
+

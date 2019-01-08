@@ -1,0 +1,38 @@
+
+//compila un simple archivo typescript
+------------------------------------------------------------------------------------------
+tsc app
+
+//compilacion en modo observador
+------------------------------------------------------------------------------------------
+tsc app -w
+
+//compilacion en modo observador en todos los archivos
+------------------------------------------------------------------------------------------
+tsc *.ts -w
+
+//inicializar un proyecto en typescript
+//esto permite crear un proyecto de typescript, en el cual se pudan autocompilar los 
+//todos los archivos del proyecto.
+------------------------------------------------------------------------------------------
+tsc -init
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+
+
+//Generacion automatica de una aplicacion angular.
+>$ sudo chown -R eduray /Users/eduray/.config 
+>$ ng new miApp
+
+//Ejecutar la aplicacion
+>$ ng serve
+>$ ng serve -p 4201    //Especificando un puerto diferente.
+>$ ng serve -o         //Abre el navegador una vez montado el proyecto.
+
+
+//Vuelve a descargar los modulos de node, para desarrollo
+>$ npm install
+
+//usando angular CLI se genera un componnente
+//ng (g) generate (c) component, ruta y nombre del componente 
+>$ ng g c components/footer
+
+//si no se desea crear con estilos -inline styles
+>$ ng g c components/heroes -is
+

@@ -1,0 +1,36 @@
+
+
+//node package manager (npm)
+//Actualizar version de node a la mas reciente estable
+------------------------------------------------------------------------------------------
+
+$> sudo npm cache clean -f
+$> sudo npm install -g n
+$> sudo n stable
+
+$> node -v
+$> npm -v
+
+
+//Actualizar typescript o instala
+------------------------------------------------------------------------------------------
+$> sudo npm install -g typescript
+$> tsg -v
+
+
+//Gestor de angular, Angular CLI
+------------------------------------------------------------------------------------------
+
+$> sudo npm install -g @angular/cli
+$> ng -v
+
+//Instalacion de bootstrap por npm
+//Se puede instalar - haciendo referencia a los links online en el index o descargar los fuentes y colocarlos en la carpeta assets
+//o finalmente instalarlo con npm.
+------------------------------------------------------------------------------------------
+// se coloca --save para especificar a angular que es una libreria que la app va ha necesitar.
+>$ npm install bootstrap --save
+>$ npm install jquery --save
+>$ npm install popper.js --save
+
+//se debe hacer la modificacion en el archivo de angular.json, para configurar las liberias de angular en dichas carpetas.

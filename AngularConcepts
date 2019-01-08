@@ -1,0 +1,3 @@
+// Constructor
+Es el primero en ser ejecutado, antes de OnInit.
+// OnInit    
